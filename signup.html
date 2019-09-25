@@ -1,85 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Blog Signup</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mentMe.com</title>
 </head>
 <body>
-
-	<header>
-		<img src="img/logo.png">
-		<h2>MentMe Blog</h2>
-
-		<nav>
-			<a href="index.html">Home | </a>
-			<a href="about.html">About | </a>
-			<a href="faq.html">FAQ | </a>
-			<a href="login.html">Login / Register | </a>
-			<a href="contact.html">Contact </a>
-		</nav>
-	</header>
-
-
+    
+<header> <img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png">
+<h2>MentMe Blog</h2>
+<i ><small> Home of Information </small></i><br>
+<nav><a href="home.html">  Home|</a><a href="about.html">About|</a><a href="faq.html">FAQ|</a><a href="login.html">Login/Registered|</a><a href="contact.html">Contact|</a></nav>
+</header>
 <section>
+<hr>
+<h1> Sign Up</h1>
+<hr>
+<h2> Create an Account</h2>
+<div>
+    <form action="?" method="GET">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+            <label>Firstname:</label>
+            <input type="text" name="first name" id="first" placeholder="Your First Name">
+            <br></div>
+            <div>
+            <label>Lastname</label>
+            <input type="text" name=" last name" id="last" placeholder="Your Last Name">
+            <br></div>
+            <div>
+            <label> Gender</label><br>
+            <input type="radio" name="gender" value="male"> Male
+             <input type="radio" name="gender" value="female"> Female
+            </div><br>
+            <div>
+                <label>Date of Birth </label><br>
+                <input type="date" name="">
+            </div>
+            <br>
+            <div>
+                Select your intrest
+                <ul>
+                    
+  <li>  <input type="checkbox" name=""> Music </li>
+  <li>  <input type="checkbox" name=""> Comedy </li>              
+  <li>  <input type="checkbox" name=""> Showbiz</li>             
+  <li>  <input type="checkbox" name=""> Education </li>
+</ul>
+            </div>
+<br>
+<div>
+    <label>Age Range</label>
+    <select name="age">
+        <option>--Select Age--</option>
+        <option>18-21</option>
+        <option>22-26</option>
+        <option>27-31</option>
+        <option>32-38</option>
+        <option>39-Above</option>
+    </select>
+</div>
+<br>
+<div>
+   <label> Select Favorite Movies</label>
+   <br><small><mark>select more than one where applicable</mark></small>
+   <br><select multiple >
+       <optgroup label="Series">
+        <option>Game of Thrones</option>
+        <option>Money Heist</option>
+        <option>Big Bang Theory</option>
+        <option>Power</option>
+       </optgroup>
+    <optgroup label="Blockbusters">
+         <option>Avengers</option>
+        <option>Black Panter</option>
+        <option>Fantastic Four</option>
+        <option>Spider Man</option>
+    </optgroup>
+   </select>
+</div>
+<br>
+<div>
 
-	<hr>
-
-	<h1>Sign Up</h1>
-
-	<hr>
-
-
-	<h2>Create an Account</h2>
-
-	<form action="" method="">
-		<div>
-			<label>Firstname:</label>
-			<input type="text" name="" placeholder="Your Firstname">
-		</div>
-		<div>
-			<label>Lastname:</label>
-			<input type="text" name="" placeholder="Your Lastname">
-		</div>
-		<div>
-			<label>Username:</label>
-			<input type="text" name="" placeholder="Your Username">
-		</div>
-		<div>
-			<label>Password:</label>
-			<input type="password" name="" placeholder="Your Password">
-		</div>
-		
-		<div>
-			<label>Retype Password:</label>
-			<input type="password" name="" placeholder="Retype Password">
-		</div>
-		
-		<div>
-			<button>Sign Up</button>
-		</div>
-
-
-	</form>
-
-
-
-	<footer>
-		
-		<ul>
-			<h3>Other Links</h3>
-			<li><a href="">Site Map</a></li>
-			<li><a href="">Community</a></li>
-			<li><a href="">Archives(<strong>90</strong>)</a></li>
-			<li><a href="">Contact</a></li>
-		</ul>
+    <label>Select Favorite Color</label>
+    <input type="color" name="">
+</div>
+<br><br>
+        </fieldset>
+    <fieldset>
+    
+        <legend> Account Details</legend>
+        <div>
+        <label> Upload Profile picture</label>
+        <br><small><mark> profile picture should not be more than 100kb</mark></small>
+       <br> <input type="file" name="">
+        </div>
+    <br>
+    <div>
+        <label> User Name:</label>
+        <input type="text" name="name" placeholder="Your Username">
+    </div>
+     <br>
+    <div>
+        <label> Password:</label>
+        <input type="password" name="password" placeholder="Your Passord">
+    </div>
+     <br>
+    <div>
+        <label> Re-type Password:</label>
+        <input type="password" name="password" placeholder="Your Password">
+    </div>
+ <br>
+    <div>
+        <label> Rate us Now (0-10) </label><br>
+        <input type="range" step="1" max="10" value="10"  >
+    </div>
+ <br>
+    <div>
+        
+        <input type="checkbox" name="" ><span>I agree to the terms and conditions</span><br>
+        <a href="">Click here</a> <span> for terms and conditions</span>
+    </div>
+     <br>
+    <div>
+        <button> Sign Up</button>
+        <input type="reset" value="Clear Data">
+    </div>
+    </fieldset>
+<fieldset>
+<legend>Disclaimer</legend>
+<p>All infprmation was given voluntarily by the bearer of the avove detials</p>
 
 
-		<p>Copyright &#9400 2019 </p>
-		<p>All right Reserved</p>
-
-	</footer>
+</fieldset>
+<br><br><br>
+<marquee><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"> </marquee>
 
 </section>
+<br><br><br>
+<marquee><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\img\logo.png"><img src="C:\Users\LENOVO USER\Desktop\Work space\images\Capture.png"> </marquee>
 
+<footer> 
+     <h3>Other Links</h3>
+<ul>
+ <li> <a href="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\sitemap.html">  Site Map    </a></li>
+ <li> <a href="community.html">   Community   </a></li>
+ <li> <a href="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\achives.html">  Achives(90)    </a></li>
+ <li> <a href="C:\Users\LENOVO USER\Desktop\Work space\MentME.com\contact.html">  Contact    </a></li>
 
+</ul>
+<p> Copyright &#9400 2019</p>
+<p> All rights Reserved</p>
+<p> DEsignED bY COPTINX<li> <a href="C:\Users\LENOVO USER\Desktop\Work space\coptinx.com\coptinx.html">   VISIT WEB DEVELOPERS </a></li>
+ </footer>
 </body>
 </html>
